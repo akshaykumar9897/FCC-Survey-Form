@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device,initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="facicon.icon.png" type="image/x-icon" />
+    <title>FCC: Survey</title>
+  </head>
+  <body>
+    <div id="container-main">
+      <div class="header-main-container">
+        <!----------------------- header part Start -------------------------------->
+        <header id="header1">
+          <nav>
+            <div id="main">
+              <img
+                src="./image/fcc.png"
+                width="40px"
+                height="40px"
+                class="logo-1"
+              />
+              <div class="logo-text">
+                <p>A pen by <a href="">freeCodeCamp.org</a></p>
+              </div>
+              <div id="logo-text-1">
+                <h1><a href="">FCC:Survey Form</a></h1>
+              </div>
+              <div class="follow-text">
+                <h4><a href="">+ Follow</a></h4>
+              </div>
+            </div>
+            <div id="right-main-container">
+              <div class="love-image">
+                <a href="">
+                  <img
+                    src="./image/—Pngtree—heart clipart black and white_5804499.png"
+                    width="20px"
+                    height="20px"
+                /></a>
+              </div>
+              <div class="soure-text121">
+                <h4><a href="">View Source Code</a></h4>
+              </div>
+              <div class="sing-text">
+                <h4><a href=""> Sign Up</a></h4>
+              </div>
+              <div class="log-in-text">
+                <h4><a href="">Log ln</a></h4>
+              </div>
+            </div>
+          </nav>
+        </header>
+      </div>
+
+      <!------------------------- header part End ----------------------------------->
+      <!-------------  Form part start ------------------------------>
+      <form id="form">
+        <div class="text-fcc-">
+          <h1>FreeCodeCampSurvey Form</h1>
+        </div>
+        <div class="text-fcc--">
+          <i>Thank you for taking the time to help us improve the platform</i>
+        </div>
+        <!-- ------------------------------------------------------------------------------------ -->
+        <div class="form-border">
+          <div class="cool-main-class-fcc">
+            <label for="name" vlue="name">Name:</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="form-control"
+              placeholder="      Enter Your Name"
+              required
+            />
+          </div>
+          <br />
+          <div class="cool-main-class-fcc">
+            <label for="Email" id="Email-label" vlue="email">Email:</label>
+            <input
+              type="text"
+              name="Email"
+              id="Email"
+              placeholder="     Enter Your Email"
+              required
+            />
+          </div>
+          <div class="cool-main-class-fcc">
+            <label id="number-label" for="number" vlue="age"
+              >Age <span class="otional-span">(optional)</span>
+            </label>
+            <input
+              type="number"
+              name="age"
+              id="Age"
+              min="18"
+              max="35"
+              class="form-control"
+              placeholder="      Age"
+            />
+          </div>
+          <div class="cool-main-class-fcc">
+            <p class="main-cool-akshay">
+              Which option best describes your current role?
+            </p>
+            <select id="select-wcc" name="role" required="">
+              <option disabled selected value>Select Current Role</option>
+              <option value="student">Student</option>
+              <option value="job">Full Time Job</option>
+              <option value="learner">Full Time Learner</option>
+              <option value="preferNo">Prefer Not To Say</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="cool-main-class-fcc">
+            <p class="main-cool-akshay">
+              Would you recommend freeCodeCamp to a friend?
+            </p>
+            <input
+              type="radio"
+              value="Definitely"
+              name="user"
+              class="btn-tpt"
+            />
+            <label for="">Definitely</label><br />
+            <input type="radio" value="Maybe" name="user" class="btn-tpt" />
+            <label for="">Maybe</label><br />
+            <input type="radio" value="Not Sure" name="user" class="btn-tpt" />
+            <label for="">Not Sure</label>
+          </div>
+          <div class="cool-main-class-fcc">
+            <p class="main-cool-akshay">
+              What is your favorite feature of freeCodeCamp?
+            </p>
+            <select name="" id="select-wcc--now">
+              <option disabled selected value>Select An Option</option>
+              <option value="">Challenges</option>
+              <option value="">Projects</option>
+              <option value="">Community</option>
+              <option value="">Open Source</option>
+            </select>
+          </div>
+          <div class="cool-main-class-fcc">
+            <p class="main-cool-akshay">
+              What would you like to see improved? (Check all that apply)
+            </p>
+            <input type="checkbox" class="cheekbox-text-color" />
+            <label for="" vlue="Front-End Projects">Front-End Projects</label
+            ><br />
+            <input type="checkbox" class="cheekbox-text-color" />
+            <label for="" vlue="Back-End Projects">Back-End Projects</label
+            ><br />
+            <input type="checkbox" class="cheekbox-text-color" />
+            <label for="" vlue="Data Visualization">Data Visualization</label
+            ><br />
+            <input type="checkbox" class="cheekbox-text-color" />
+            <label for="" vlue="Challenges">Challenges</label><br />
+            <input type="checkbox" class="cheekbox-text-color" />
+            <label for="" vlue="Open Source Community"
+              >Open Source Community</label
+            ><br />
+            <input type="checkbox" class="cheekbox-text-color" />
+            <label for="" vlue="Gitter Help Rooms">Gitter Help Rooms</label
+            ><br />
+            <input type="checkbox" class="cheekbox-text-color" />
+            <label for="" vlue="Videos">Videos</label><br />
+            <input type="checkbox" class="cheekbox-text-color" />
+            <label for="" vlue="City Meetups">City Meetups</label><br />
+            <input type="checkbox" class="cheekbox-text-color" />
+            <label for="" vlue="Wiki">Wiki</label><br />
+            <input type="checkbox" class="cheekbox-text-color" />
+            <label for="" vlue="Forum">Forum</label><br />
+            <input type="checkbox" class="cheekbox-text-color" />
+            <label for="" vlue="Additional Courses">Additional Courses</label>
+          </div>
+          <div class="cool-main-class-fcc">
+            <p class="main-cool-akshay">Any comments or suggestions?</p>
+            <textarea
+              id="comments-text"
+              class="textarea"
+              name="comment"
+              placeholder="  Enter Your Comment Here..."
+            ></textarea>
+          </div>
+          <div class="cool-main-class-fcc">
+            <button type="submit" id="submit" class="submit-button">
+              Submit
+            </button>
+          </div>
+        </div>
+      </form>
+      <!----------------------  Form part End --------------------->
+    </div>
+  </body>
+</html>

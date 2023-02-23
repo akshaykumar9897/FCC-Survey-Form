@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#container-main {
+  height: 200vh;
+  background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url(./image/1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* -------------->  header part Start <------------------- */
+#header1 {
+  width: 100%;
+  height: 70px;
+  background-color: rgb(12, 11, 11);
+  position: fixed;
+}
+
+.logo-1 {
+  background-color: white;
+  margin: 15px 0px 15px 20px;
+  border: 3px solid white;
+  border-radius: 3px;
+  position: relative;
+}
+.logo-text p {
+  color: #cedfdc;
+  font-family: sans-serif;
+  position: absolute;
+  top: 15px;
+  left: 80px;
+}
+
+.logo-text p > a {
+  color: #cedfdc;
+  text-decoration: none;
+}
+.logo-text a:hover {
+  color: hsla(313, 90%, 49%, 0.753);
+}
+#logo-text-1 h1 > a {
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  top: 38px;
+  left: 80px;
+  font-size: 23px;
+}
+.follow-text h4 > a {
+  width: 70px;
+  height: 20px;
+  color: black;
+  text-align: center;
+  background-color: #47cf73;
+  border: 1px solid #47cf73;
+  border-radius: 2px;
+  text-decoration: none;
+  position: absolute;
+  top: 15px;
+  left: 295px;
+}
+.follow-text a:hover {
+  background-color: rgba(71, 207, 114, 0.774);
+  border: 1px solid rgba(248, 6, 79, 0.89);
+  color: #fff;
+}
+#right-main-container {
+}
+.love-image {
+  width: 40px;
+  height: 40px;
+  background-color: #444857;
+  border: 1px solid #444857;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 15px;
+  left: 775px;
+}
+.love-image:hover {
+  background-color: rgba(0, 255, 255, 0.808);
+}
+.soure-text121 h4 > a {
+  width: 180px;
+  height: 40px;
+  font-family: sans-serif;
+  background-color: #444857;
+  border: 1px solid #444857;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  justify-content: center;
+  color: white;
+  position: absolute;
+  top: 15px;
+  left: 840px;
+}
+.soure-text121 a:hover {
+  background-color: rgba(0, 255, 255, 0.808);
+  color: rgba(12, 12, 12, 0.945);
+}
+.sing-text h4 > a {
+  width: 90px;
+  height: 40px;
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #444857;
+  border-radius: 5px;
+  background-color: #47cf73;
+  color: rgba(29, 27, 27, 0.89);
+  font-family: sans-serif;
+  position: absolute;
+  top: 15px;
+  left: 1040px;
+}
+.sing-text a:hover {
+  background-color: rgba(71, 207, 114, 0.863);
+  color: azure;
+}
+.log-in-text h4 > a {
+  width: 80px;
+  height: 40px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #444857;
+  background-color: #444857;
+  border-radius: 5px;
+  color: white;
+  font-family: sans-serif;
+  position: absolute;
+  top: 15px;
+  left: 1150px;
+}
+.log-in-text a:hover {
+  background-color: rgba(109, 113, 128, 0.89);
+  color: #47cf73;
+}
+/* -------------->  header part End <------------------- */
+/* -------------->  Form part Start <-------------------  */
+
+.text-fcc- {
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 100px;
+  color: rgb(253, 249, 249);
+}
+.text-fcc-- {
+  font-family: sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 7px;
+  color: rgb(252, 250, 250);
+}
+
+.form-border {
+  width: 601px;
+  height: 1185px;
+  border: 2px solid rgba(40, 40, 72, 0.932);
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 20px;
+  background-color: rgba(40, 40, 72, 0.932);
+}
+
+/* -------------->  Form part End <-------------------  */
+
+.cool-main-class-fcc {
+  color: white;
+  margin-left: 49px;
+  font-family: sans-serif;
+  margin-top: 30px;
+}
+
+#name {
+  width: 500px;
+  height: 35px;
+  margin-top: 10px;
+}
+
+#Email {
+  width: 500px;
+  height: 35px;
+  margin-top: 10px;
+}
+#Age {
+  width: 500px;
+  height: 35px;
+  margin-top: 10px;
+}
+#select-wcc {
+  width: 500px;
+  height: 35px;
+  padding: 8px;
+  font-family: sans-serif;
+  color: rgb(68, 70, 71);
+}
+#select-wcc--now {
+  width: 500px;
+  height: 35px;
+  padding: 8px;
+  font-family: sans-serif;
+  color: rgb(68, 70, 71);
+}
+#submit {
+  width: 500px;
+  height: 35px;
+  background-color: rgb(71, 207, 115);
+  color: white;
+  font-size: 20px;
+  border: 2px solid rgb(71, 207, 115);
+  border-radius: 3px;
+}
+.textarea {
+  width: 500px;
+  height: 65px;
+}
+.main-cool-akshay {
+  margin-bottom: 10px;
+}
+.btn-tpt {
+  margin-bottom: 10px;
+}
+.cheekbox-text-color {
+  margin-bottom: 13px;
+}
+.otional-span {
+  margin-left: 4px;
+  font-size: 15px;
+}

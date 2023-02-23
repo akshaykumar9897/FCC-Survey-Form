@@ -1,4 +1,4 @@
-@media only screen and (min-width: 200px) and (max-width: 800px) {
+/* @media only screen and (min-width: 200px) and (max-width: 800px) {
   .soure-text121 h4 > a {
     position: absolute;
     top: 15px;
@@ -24,5 +24,94 @@
     position: absolute;
     top: 15px;
     left: 377px;
+  }
+} */
+/* ------------------------------- 0px And 400px ---------------------*/
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+  html {
+    font-size: 74%;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+  #container-main {
+    width: 100%;
+  }
+  .logo-1 {
+    margin-left: 10px;
+    margin-top: 15px;
+  }
+  .logo-text p {
+    position: absolute;
+    top: 13px;
+    left: 56px;
+  }
+
+  #logo-text-1 h1 > a {
+    font-size: 20px;
+    position: absolute;
+    top: 30px;
+    left: 57px;
+  }
+  .follow-text {
+    position: absolute;
+    top: 0px;
+    left: -82px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+  .form-border {
+    width: 410px;
+    height: 1150px;
+  }
+  /* --------------------------------------------------------------- */
+  .sing-text h4 > a {
+    position: absolute;
+    top: 15px;
+    left: 380px;
+  }
+  .log-in-text h4 > a {
+    position: absolute;
+    top: 15px;
+    left: 292px;
+  }
+}
+/* -------------------------------------------------- */
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+  #select-wcc,
+  #select-wcc--now,
+  #submit,
+  .textarea {
+    width: 250px;
+    height: 35px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+  #name,
+  #Email {
+    width: 250px;
+    height: 35px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+  #Age {
+    width: 250px;
+    height: 35px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+  .palak {
+    position: absolute;
+    top: 228px;
+    left: 30;
+  }
+  .palak2 {
+    position: absolute;
+    top: 317px;
+    left: 30;
+  }
+  .palak3 {
+    position: absolute;
+    top: 388px;
+    left: 30;
   }
 }

@@ -227,7 +227,8 @@
 }
 .textarea {
   width: 500px;
-  height: 65px;
+  height: 70px;
+  resize: vertical;
 }
 .main-cool-akshay {
   margin-bottom: 10px;
@@ -241,4 +242,8 @@
 .otional-span {
   margin-left: 4px;
   font-size: 15px;
+}
+.input[type="cheekbox"]:hover {
+  cursor: pointer;
+  background-color: blue;
 }

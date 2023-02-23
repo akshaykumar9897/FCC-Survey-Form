@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 #container-main {
-  height: 230vh;
+  height: 270vh;
   background-image: linear-gradient(
       115deg,
       rgba(58, 58, 158, 0.8),
@@ -15,16 +15,16 @@
   background-position: center;
   background-attachment: fixed;
 }
-@media (min-width: 576px) {
+/* @media (min-width: 576px) {
   #container-main {
     max-width: 540px;
   }
-}
-@media (min-width: 768px) {
-  #container-main {
-    max-width: 720px;
+} */
+/* @media (min-width: 768px) {
+  #main {
+    max-height: 768px;
   }
-}
+} */
 /* -------------->  header part Start <------------------- */
 #header1 {
   width: 100%;

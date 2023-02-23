@@ -1,0 +1,28 @@
+@media only screen and (min-width: 200px) and (max-width: 800px) {
+  .soure-text121 h4 > a {
+    position: absolute;
+    top: 15px;
+    left: 426px;
+  }
+}
+@media only screen and (min-width: 200px) and (max-width: 800px) {
+  .sing-text h4 > a {
+    position: absolute;
+    top: 15px;
+    left: 614px;
+  }
+}
+@media only screen and (min-width: 200px) and (max-width: 800px) {
+  .log-in-text h4 > a {
+    position: absolute;
+    top: 15px;
+    left: 713px;
+  }
+}
+@media only screen and (min-width: 200px) and (max-width: 800px) {
+  .love-image {
+    position: absolute;
+    top: 15px;
+    left: 377px;
+  }
+}

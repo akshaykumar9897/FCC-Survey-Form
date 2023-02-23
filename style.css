@@ -15,16 +15,7 @@
   background-position: center;
   background-attachment: fixed;
 }
-/* @media (min-width: 576px) {
-  #container-main {
-    max-width: 540px;
-  }
-} */
-/* @media (min-width: 768px) {
-  #main {
-    max-height: 768px;
-  }
-} */
+
 /* -------------->  header part Start <------------------- */
 #header1 {
   width: 100%;

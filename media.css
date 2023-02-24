@@ -76,7 +76,7 @@
   }
 }
 /* -------------------------------------------------- */
-@media only screen and (min-width: 0px) and (max-width: 480px) {
+@media only screen and (min-width: 480px) and (max-width: 597px) {
   #select-wcc,
   #select-wcc--now,
   #submit,
@@ -85,20 +85,20 @@
     height: 35px;
   }
 }
-@media only screen and (min-width: 0px) and (max-width: 480px) {
+@media only screen and (min-width: 480px) and (max-width: 597px) {
   #name,
   #Email {
     width: 250px;
     height: 35px;
   }
 }
-@media only screen and (min-width: 0px) and (max-width: 480px) {
+@media only screen and (min-width: 480px) and (max-width: 597px) {
   #Age {
     width: 250px;
     height: 35px;
   }
 }
-@media only screen and (min-width: 0px) and (max-width: 480px) {
+@media only screen and (min-width: 480px) and (max-width: 597px) {
   .palak {
     position: absolute;
     top: 228px;

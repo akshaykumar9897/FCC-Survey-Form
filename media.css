@@ -57,61 +57,70 @@
     top: 0px;
     left: -82px;
   }
+  .text-fcc-- {
+    font-size: 110%;
+  }
 }
 @media only screen and (min-width: 0px) and (max-width: 480px) {
   .form-border {
-    width: 410px;
+    width: 340px;
     height: 1150px;
+    margin-left: 34px;
+    background-attachment: fixed;
   }
   /* --------------------------------------------------------------- */
   .sing-text h4 > a {
+    width: 50px;
+    height: 35px;
     position: absolute;
     top: 15px;
-    left: 380px;
+    left: 343px;
   }
   .log-in-text h4 > a {
+    width: 50px;
+    height: 35px;
     position: absolute;
     top: 15px;
-    left: 292px;
+    left: 288px;
   }
 }
 /* -------------------------------------------------- */
-@media only screen and (min-width: 480px) and (max-width: 597px) {
+@media only screen and (min-width: 0px) and (max-width: 400px) {
   #select-wcc,
   #select-wcc--now,
   #submit,
   .textarea {
-    width: 250px;
+    width: 200px;
     height: 35px;
   }
 }
-@media only screen and (min-width: 480px) and (max-width: 597px) {
+@media only screen and (min-width: 0px) and (max-width: 400px) {
   #name,
   #Email {
-    width: 250px;
+    width: 200px;
     height: 35px;
   }
 }
-@media only screen and (min-width: 480px) and (max-width: 597px) {
+@media only screen and (min-width: 0px) and (max-width: 400px) {
   #Age {
-    width: 250px;
+    width: 200px;
     height: 35px;
   }
 }
-@media only screen and (min-width: 480px) and (max-width: 597px) {
+@media only screen and (min-width: 0px) and (max-width: 400px) {
   .palak {
     position: absolute;
-    top: 228px;
+    top: 209px;
     left: 30;
   }
   .palak2 {
     position: absolute;
-    top: 317px;
+    top: 300px;
     left: 30;
   }
   .palak3 {
     position: absolute;
-    top: 388px;
+    top: 370px;
     left: 30;
   }
 }

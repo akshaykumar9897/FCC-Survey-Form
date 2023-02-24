@@ -110,17 +110,17 @@
 @media only screen and (min-width: 0px) and (max-width: 400px) {
   .palak {
     position: absolute;
-    top: 209px;
+    top: 196px;
     left: 30;
   }
   .palak2 {
     position: absolute;
-    top: 300px;
+    top: 286px;
     left: 30;
   }
   .palak3 {
     position: absolute;
-    top: 370px;
+    top: 358px;
     left: 30;
   }
 }

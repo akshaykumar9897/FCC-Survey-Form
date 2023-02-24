@@ -85,7 +85,7 @@
   justify-content: center;
   position: absolute;
   top: 15px;
-  left: 755px;
+  left: 700px;
 }
 .love-image:hover {
   background-color: rgba(0, 255, 255, 0.808);
@@ -104,7 +104,7 @@
   color: white;
   position: absolute;
   top: 15px;
-  left: 855px;
+  left: 800px;
 }
 .soure-text121 a:hover {
   background-color: rgba(0, 255, 255, 0.808);
@@ -124,7 +124,7 @@
   font-family: sans-serif;
   position: absolute;
   top: 15px;
-  left: 1070px;
+  left: 1010px;
 }
 .sing-text a:hover {
   background-color: rgba(71, 207, 114, 0.863);
@@ -144,7 +144,7 @@
   font-family: sans-serif;
   position: absolute;
   top: 15px;
-  left: 1200px;
+  left: 1130px;
 }
 .log-in-text a:hover {
   background-color: rgba(109, 113, 128, 0.89);
